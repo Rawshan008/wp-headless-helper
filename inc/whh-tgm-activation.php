@@ -60,6 +60,13 @@ function whh_register_required_plugins() {
         ),
 
         array(
+            'name'      => 'WP Graphql Widgets',
+            'slug'      => 'wp-graphql-widgets',
+            'source'    => 'https://github.com/benada002/wp-graphql-widgets/archive/refs/heads/master.zip',
+            'required'  => true,
+        ),
+
+        array(
             'name'      => 'Wp Graphql Gutenberg Acf',
             'slug'      => 'wp-graphql-gutenberg-acf',
             'source'    => 'https://github.com/pristas-peter/wp-graphql-gutenberg-acf/archive/refs/heads/develop.zip',
